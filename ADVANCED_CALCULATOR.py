@@ -175,7 +175,7 @@ class Calc:
 res = Calc()
 
 
-txtDisplay = Entry(calc, font=('arial', 20, 'bold'), bd=30, bg='gray60', width=28, justify=RIGHT)
+txtDisplay = Entry(calc, font=('arial', 20, 'bold'), bd=30,fg='yellow', bg='gray60', width=28, justify=RIGHT)
 txtDisplay.grid(row=0, column=0, columnspan=4, pady=1)
 txtDisplay.insert(0, '0')
 
