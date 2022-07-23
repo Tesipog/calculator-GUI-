@@ -185,7 +185,7 @@ btn = []
 
 for j in range(2, 5):
     for k in range(3):
-        btn.append(Button(calc, width=6, height=2, font=('arial', 20, 'bold'), bd=4, text=numpad[i], bg="black"))
+        btn.append(Button(calc, width=6, height=2, font=('arial', 20, 'bold'), fg='yellow',bg="black",bd=4, text=numpad[i], bg="black"))
         btn[i].grid(row=j, column=k, pady=1)
         btn[i]['command'] = lambda x=numpad[i]: res.numberEnter(x)
         i += 1
