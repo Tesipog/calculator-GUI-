@@ -13,9 +13,10 @@ And now we will start writing codes for making this. To create this we have to d
 2. Creating the main interface(window for calculator)
 3. Adding any number of widgets to the main interface
 4. Applying the event trigger on widgets
+
 How to switch between scientific and standard
 1. Click on the files That appear on Right the Corner
-
+2. There you can switch between scientific and standard
 
 How to Contribute
 1. Fork the the project
